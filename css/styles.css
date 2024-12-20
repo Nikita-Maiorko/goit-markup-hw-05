@@ -680,14 +680,22 @@ button {
   fill: #4d5ae5;
 }
 
+.form-comment-cont {
+  margin-bottom: 16px;
+}
 .form-user-comment {
+  color: rgba(46, 47, 66, 0.4);
+  letter-spacing: 0.04em;
+  line-height: 1.17;
+  font-size: 12px;
   width: 100%;
   resize: none;
   min-height: 120px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  outline: none;
+  outline: transparent;
   border-radius: 4px;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 8px 16px;
 }
 .form-user-comment::placeholder {
@@ -727,7 +735,7 @@ button {
 .form-user-checkbox {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
