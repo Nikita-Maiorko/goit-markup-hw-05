@@ -712,6 +712,7 @@ button {
   text-decoration: underline;
   color: #4d5ae5;
 }
+
 .castom-checkbox {
   cursor: pointer;
   display: inline-flex;
@@ -744,7 +745,7 @@ button {
 .privacy-policy {
 }
 .form-wrapper-checkbox {
-  margin-bottom: 15px;
+  margin-bottom: 24px;
 }
 .form-btn-submit {
   border: none;
